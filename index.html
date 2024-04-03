@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf‐8">
+  <title>Live Coding Language</title>
+</head>
+<body>
+  <p>This is an enhanced command-based live coding engine. Press the button to re-evaluate your code.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Specify a rhythmic pattern of beats by entering a space-separated list of times and pitches.</li>
+    <li>Include JavaScript computation in the values.</li>
+    <li>Use square brackets to define repeating sections.</li>
+    <li>Specify the oscillator type at the beginning of the code string.</li>
+  </ul>
+  <p>Example: sawtooth 1+1@220 2@220*2 2[1*3@270]</p>
+  <button>Re-evaluate</button>
+  <input type="text" id="code">
+</body>
+<script src="main.js"></script>
+</html>
